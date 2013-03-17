@@ -1,6 +1,6 @@
 var API_URL="http://youtube-dl.appspot.com/api/"
 //Uncomment for using a local server
-API_URL="http://localhost:9191/api/"
+//API_URL="http://localhost:9191/api/"
 
 function video_section() {
 	return document.getElementById('videos-section');
