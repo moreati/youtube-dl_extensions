@@ -19,4 +19,8 @@ function load_videos(event) {
 	processVideosURL(url);
 }
 
+function use_localserver() {
+	return safari.extension.settings.localserver;
+}
+
 safari.application.addEventListener("command", load_videos, false);

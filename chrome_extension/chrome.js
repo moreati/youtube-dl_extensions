@@ -20,4 +20,10 @@ function get_url() {
 	chrome.tabs.getSelected(null,get_url_form_tab);
 }
 
+function use_localserver() {
+	var localserver = localStorage.localserver;
+	if (localserver == "true") return true;
+	else return false;
+}
+
 document.addEventListener('DOMContentLoaded', get_url);

@@ -1,6 +1,4 @@
 var API_URL="http://youtube-dl.appspot.com/api/"
-//Uncomment for using a local server
-//API_URL="http://localhost:9191/api/"
 
 function video_section() {
 	return document.getElementById('videos-section');
@@ -52,6 +50,10 @@ function apiCallFailed(jqXHR, textStatus, errorThrown) {
 	
 function processVideosURL(video_url) {
 	console.log('Loading '+ video_url);
+	if (use_localserver()) {
+		console.log("Use local server on port 9191")
+		API_URL="http://localhost:9191/api/";
+	}
 	$.getJSON(
 			 API_URL,
 			 {'url':video_url},
@@ -60,8 +62,6 @@ function processVideosURL(video_url) {
 }
 
 function set_loading_view() {
-	var text = document.createElement('p');
-	text.innerHTML = "That's it";
 	var vid = video_section();
 	vid.innerHTML="<p>Loading</p>";
 }
