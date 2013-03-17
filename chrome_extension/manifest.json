@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "youtube-dl",
+  "description": "Download videos from different sites.",
+  "version": "0.1",
+  
+  "homepage_url": "https://github.com/jaimeMF/youtube-dl_extensions",
+  
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+
+  "browser_action": {
+    "default_icon": "icon_button.png",
+    "default_popup": "popup.html"
+  },
+  
+   "permissions": [
+    "tabs"
+  ]
+}

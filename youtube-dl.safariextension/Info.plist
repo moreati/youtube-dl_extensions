@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>Jaime Marquínez Ferrándiz</string>
+	<key>Builder Version</key>
+	<string>7534.57.7</string>
+	<key>CFBundleDisplayName</key>
+	<string>youtube-dl</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.marquinezferrandiz.youtubedl</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Global Page</key>
+		<string>global.html</string>
+		<key>Popovers</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>popup.html</string>
+				<key>Height</key>
+				<real>350</real>
+				<key>Identifier</key>
+				<string>youtubedl</string>
+				<key>Width</key>
+				<real>250</real>
+			</dict>
+		</array>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Command</key>
+				<string>load_videos</string>
+				<key>Identifier</key>
+				<string>youtubedl</string>
+				<key>Image</key>
+				<string>icon_button.png</string>
+				<key>Label</key>
+				<string>youtubedl</string>
+				<key>Popover</key>
+				<string>youtubedl</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Scripts</key>
+		<dict/>
+	</dict>
+	<key>Description</key>
+	<string>Download videos from different sites.</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>https://github.com/jaimeMF/youtube-dl_extensions</string>
+</dict>
+</plist>
