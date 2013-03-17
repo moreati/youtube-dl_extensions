@@ -11,8 +11,9 @@ Currently there are no packed distributions.
 ###Manually
 
 1.	Download the source.
-2.	Run `link_files.sh`
-3.	Install on your browser:
+2.	Download [jQuery](http://jquery.com/) and move it to `assets/jquery.min.js`.
+3.	Run `link_files.sh`
+4.	Install on your browser:
 	* __Safari__:
 		1. Clink on `Show Extension Builder` from the `Develop`menu.
 		2. Click on the + icon and select `Add Extension`.
