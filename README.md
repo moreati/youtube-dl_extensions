@@ -6,7 +6,9 @@ Currently there a re extensions for Chrome and Safari.
 They both use the API provided by [youtube-dl web](https://github.com/jaimeMF/youtube-dl-web).
    
 ##Installing
-Currently there are no packed distributions.
+
+###Download
+See the [homepage](http://jaimemf.github.com/youtube-dl_extensions/) for the instructions.
 
 ###Manually
 
