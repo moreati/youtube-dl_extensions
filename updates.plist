@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+   <key>Extension Updates</key>
+   <array>
+     <dict>
+       <key>CFBundleIdentifier</key>
+       <string>org.marquinezferrandiz.youtubedl</string>
+       <key>Developer Identifier</key>
+       <string>6ZTZG3ZL78</string>
+       <key>CFBundleVersion</key>
+       <string>2</string>
+       <key>CFBundleShortVersionString</key>
+       <string>0.1.1</string>
+       <key>URL</key>
+       <string>http://jaimemf.github.com/youtube-dl_extensions/builds/youtube-dl-0.1.1.safariextz</string>
+     </dict>
+   </array>
+</dict>
