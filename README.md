@@ -8,15 +8,18 @@ They both use the API provided by [youtube-dl web](https://github.com/jaimeMF/yo
 ##Installing
 
 ###Download
-See the [homepage](http://jaimemf.github.com/youtube-dl_extensions/) for the instructions.
+Download the extension from the [Google Code downloads page](http://code.google.com/p/youtube-dl-extensions/downloads/list).
 
-###Manually
+See the [homepage](http://jaimemf.github.com/youtube-dl_extensions/) for the full instructions.
+
+###Manually 
+(for advanced users)
 
 1.	Download the source.
 2.	Download [jQuery](http://jquery.com/) and move it to `assets/jquery.min.js`.
 3.	Run `link_files.sh`
 4.	Install on your browser:
-	* __Safari__:
+	* __Safari__:[^1]
 		1. Clink on `Show Extension Builder` from the `Develop`menu.
 		2. Click on the + icon and select `Add Extension`.
 		3. Browse to the source and select `youtube-dl.safariextension`.
@@ -28,3 +31,5 @@ See the [homepage](http://jaimemf.github.com/youtube-dl_extensions/) for the ins
 		4. Browse to the source and select `chrome_extension`.
 
 __Jaime Marquínez Ferrándiz__
+
+[^1]: You need a developer cetificate for using custom extensions in Safari.
