@@ -1,0 +1,3 @@
+[submodule "common/youtube-dl-web"]
+	path = common/youtube-dl-web
+	url = git@github.com:jaimeMF/youtube-dl-web.git
