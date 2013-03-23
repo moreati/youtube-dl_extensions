@@ -2,6 +2,7 @@ var widgets = require("sdk/widget");
 var tabs = require("sdk/tabs");
 var data = require("sdk/self").data;
 var tabs = require("sdk/tabs");
+var simple_prefs = require("sdk/simple-prefs");
 
 function open_url(the_url) {
     tabs.open({
@@ -15,7 +16,7 @@ var popup = require("sdk/panel").Panel({
 });
 
 popup.on("show", function() {
- popup.port.emit("show",tabs.activeTab.url);
+ popup.port.emit("show",[tabs.activeTab.url,simple_prefs.prefs.localserver]);
 });
 
 popup.port.on("open_url", open_url);
