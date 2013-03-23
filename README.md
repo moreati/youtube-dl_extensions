@@ -3,7 +3,7 @@ Browser extensions using [youtube-dl](http://youtube-dl.org).
 
 Currently there are extensions for Chrome, Firefox and Safari.
 
-They both use the API provided by [youtube-dl web](https://github.com/jaimeMF/youtube-dl-web).
+They all use the API provided by [youtube-dl web](https://github.com/jaimeMF/youtube-dl-web).
    
 ##Installing
 
@@ -33,6 +33,14 @@ See the [homepage](http://jaimemf.github.com/youtube-dl_extensions/) for the ful
 		1. Download de [Add-on SDK](https://addons.mozilla.org/en-US/developers/builder).
 		2. Run `cfx xpi` inside the `firefox` directory.
 		3. Open the `youtube-dl.xpi` file with Firefox.
+
+###Localserver setup
+
+Some sites video links dont' work by default (like YouTube), for getting the right ones you need to follow these steps:
+
+1. Install the [youtube-dl-web](https://github.com/jaimeMF/youtube-dl-web) server.
+2. Run `python youtube_dl_sever.py`.
+3. Turn on the `localserver` option in the extension's preferences.
 
 __Jaime Marquínez Ferrándiz__
 
