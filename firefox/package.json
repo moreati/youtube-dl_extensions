@@ -1,0 +1,20 @@
+{
+    "name": "youtube-dl", 
+    "license": "MIT", 
+    "author": "Jaime Marquínez Ferrándiz (https://github.com/jaimeMF/youtube-dl_extensions)", 
+    "version": "0.3.alpha2", 
+    "id": "jid1-FbM0WeHVXAWQ1A", 
+    "description": "Download videos from different sites.",
+    
+    "icon": "data/Icon.png",
+    
+    "preferences": [
+        {
+            "name":"localserver",
+            "title": "Use localserver",
+            "description": "Do API requests to a localserver running on port 9191",
+            "type": "bool",
+            "value": false
+        }
+    ]
+}

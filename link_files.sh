@@ -3,7 +3,7 @@
 #Link the needed files to the different extensions
 #They need to be hard links
 
-EXTENSIONS="chrome_extension youtube-dl.safariextension"
+EXTENSIONS="chrome_extension youtube-dl.safariextension firefox/data"
 YDL_WEB="youtube-dl-web/InfoViewer.js youtube-dl-web/VideoInfo.js youtube-dl-web/processURL.js"
 FILES="popup.html icon_button.png Icon.png icon128.png icon48.png ${YDL_WEB}"
 echo ${FILES}

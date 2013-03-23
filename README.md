@@ -1,7 +1,7 @@
 #youtube-dl browser extensions
 Browser extensions using [youtube-dl](http://youtube-dl.org).
 
-Currently there a re extensions for Chrome and Safari.
+Currently there are extensions for Chrome, Firefox and Safari.
 
 They both use the API provided by [youtube-dl web](https://github.com/jaimeMF/youtube-dl-web).
    
@@ -29,6 +29,10 @@ See the [homepage](http://jaimemf.github.com/youtube-dl_extensions/) for the ful
 		2. Turn on the developer mode.
 		3. Click `Load unpacked extension…`.
 		4. Browse to the source and select `chrome_extension`.
+	* __Firefox__:
+		1. Download de [Add-on SDK](https://addons.mozilla.org/en-US/developers/builder).
+		2. Run `cfx xpi` inside the `firefox` directory.
+		3. Open the `youtube-dl.xpi` file with Firefox.
 
 __Jaime Marquínez Ferrándiz__
 
