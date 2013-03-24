@@ -38,7 +38,7 @@ See the [homepage](http://jaimemf.github.com/youtube-dl_extensions/) for the ful
 
 Some sites video links dont' work by default (like YouTube), for getting the right ones you need to follow these steps:
 
-1. Install the [youtube-dl-web](https://github.com/jaimeMF/youtube-dl-web) server.
+1. Install the [youtube-dl-api-server](https://github.com/jaimeMF/youtube-dl-api-server).
 2. Run `python youtube_dl_sever.py`.
 3. Turn on the `localserver` option in the extension's preferences.
 
