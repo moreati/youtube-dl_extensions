@@ -3,67 +3,74 @@
 	<head>
 		<meta charset="utf-8">
 		<title>youtube-dl extensions</title>
+		<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
 	</head>
 	<body>
-		<!--Fork me ribbon-->
-		<a href="https://github.com/jaimeMF/youtube-dl_extensions">
-			<img style="position: fixed; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub">
-		</a>
-
-		<h1>youtube-dl extensions</h1>
-		<p>Extensions for different browsers, see 
-			<a href="https://github.com/jaimeMF/youtube-dl_extensions">Github repo</a>.
-		</p>
-
-		<div>
-			
-			<h3>Download the extension</h3>
-			<ul>
-				<li>
-					<h4>Chrome and Safari</h4>
-					<p>
-						Download from the 
-						<a href="http://code.google.com/p/youtube-dl-extensions/downloads/list">
-						Google Code dwonloads page</a>
-					</p>
-					<ul>
-						<li><b>Safari</b>: 
-							Download and install by double-clicking it.
-						</li>
-						<li><b>Chrome</b>: 
-							<ol>
-								<li>
-									Download.
-								</li>
-								<li>
-									Open Chrome and browse to the extensions page 
-									(<code>chrome://extensions/</code>).
-								</li>
-								<li>
-									Drag the downloaded file to the page.
-								</li>
-							</ol>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<h4>Firefox</h4>
-					<p>Install from the <a href="https://addons.mozilla.org/firefox/addon/youtube-dl/">youtube-dl Firefox extension page</a></p>
-				</li>
-			</ul>
+		<div class="container">
+			<!--Fork me ribbon-->
+			<a href="https://github.com/jaimeMF/youtube-dl_extensions">
+				<img style="position: fixed; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub">
+			</a>
+			<div class="page-header">
+				<h1>youtube-dl extensions</h1>
+				<p>Extensions for different browsers, see the
+					<a href="https://github.com/jaimeMF/youtube-dl_extensions">Github repo</a>.
+				</p>
+			</div>
+	
+			<div>
+				
+				<h3>Install the extension</h3>
+				<ul>
+					<li>
+						<h4>Chrome and Safari</h4>
+						<p>
+							Download from the 
+							<a href="http://code.google.com/p/youtube-dl-extensions/downloads/list">
+							Google Code dwonloads page</a>
+						</p>
+						<ul>
+							<li><b>Safari</b>: 
+								Download and install by double-clicking it.
+							</li>
+							<li><b>Chrome</b>: 
+								<ol>
+									<li>
+										Download.
+									</li>
+									<li>
+										Open Chrome and browse to the extensions page 
+										(<code>chrome://extensions/</code>).
+									</li>
+									<li>
+										Drag the downloaded file to the page.
+									</li>
+								</ol>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<h4>Firefox</h4>
+						<p>Install from the <a href="https://addons.mozilla.org/firefox/addon/youtube-dl/">youtube-dl Firefox extension page</a></p>
+					</li>
+				</ul>
+			</div>
+	
+			<div id="localserver">
+				<h3>Use a local server</h3>
+				<p>The three extensions support using a localserver for getting the URLs. It allows to get the correct links for sites like youtube.</p>
+				<p>Follow the steps to use it:</p>
+				<ol>
+					<li>Install the server from <a href="https://github.com/jaimeMF/youtube-dl-api-server">youtube-dl-api-server</a>.</li>
+					<li>Run <code>python youtube_dl_sever.py</code>.</li>
+					<li>Turn on the option <code>Use localserver</code> in the extension's option page.</li>
+				</ol>
+			</div>
+	
+			<b><a href="https://github.com/jaimeMF">Jaime Marquínez Ferrándiz</a></b>
 		</div>
-
-		<div id="localserver">
-			<h3>Use a local server</h3>
-			<p>The three extensions support using a localserver for getting the URLs. It allows to get the correct links for sites like youtube.</p>
-			<p>Follow the steps to use it:</p>
-			<ol>
-				<li>Install the server from <a href="https://github.com/jaimeMF/youtube-dl-api-server">youtube-dl-api-server</a>.</li>
-				<li>Run <code>python youtube_dl_sever.py</code>.</li>
-				<li>Turn on the option <code>Use localserver</code> in the extension's option page.</li>
-			</ol>
-		</div>
-
-		<b><a href="https://github.com/jaimeMF">Jaime Marquínez Ferrándiz</a></b>
+		
+		<script src="http://code.jquery.com/jquery-latest.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
 	</body>
 </html>
