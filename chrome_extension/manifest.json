@@ -3,11 +3,11 @@
 
   "name": "youtube-dl",
   "description": "Download videos from different sites.",
-  "version": "0.2",
+  "version": "0.2.1",
   
   "homepage_url": "https://github.com/jaimeMF/youtube-dl_extensions",
   
-  "update_url": "http://jaimemf.github.com/youtube-dl_extensions/updates.xml",
+  "update_url": "http://jaimemf.github.io/youtube-dl_extensions/updates.xml",
   
   "icons": {
     "48": "icon48.png",

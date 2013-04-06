@@ -8,9 +8,22 @@ function load_videos(event) {
 	processVideosURL(url);
 }
 
-InfoViewer.prototype.html_video_link_on_click = function(url) {
-	return function() {safari.application.activeBrowserWindow.openTab().url = url;};
+function open_url_f(url) {
+	return function() {
+		safari.application.activeBrowserWindow.openTab().url = url;
+	};
 }
+
+InfoViewer.prototype.html_href = function(url) {return null;}
+
+InfoViewer.prototype.html_video_link_on_click = function(url) {
+	return open_url_f(url);
+}
+
+InfoViewer.prototype.html_link_on_click = function(url) {
+	return open_url_f(url);
+}
+
 InfoViewer.prototype.video_section = function() {
 	return popover_document.getElementById('videos-section');
 }

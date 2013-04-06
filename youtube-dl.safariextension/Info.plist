@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Jaime Marquínez Ferrándiz</string>
 	<key>Builder Version</key>
-	<string>7534.57.7</string>
+	<string>7536.28.10</string>
 	<key>CFBundleDisplayName</key>
 	<string>youtube-dl</string>
 	<key>CFBundleIdentifier</key>
@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.2</string>
+	<string>0.2.1</string>
 	<key>CFBundleVersion</key>
-	<string>3</string>
+	<string>4</string>
 	<key>Chrome</key>
 	<dict>
 		<key>Global Page</key>
@@ -67,7 +67,7 @@
 		</dict>
 	</dict>
 	<key>Update Manifest URL</key>
-	<string>http://jaimemf.github.com/youtube-dl_extensions/updates.plist</string>
+	<string>http://jaimemf.github.io/youtube-dl_extensions/updates.plist</string>
 	<key>Website</key>
 	<string>https://github.com/jaimeMF/youtube-dl_extensions</string>
 </dict>
